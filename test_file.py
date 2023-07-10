@@ -116,3 +116,6 @@ def test_delete_user():
     headers = {"Authorization": BEARER}
     r = requests.get(f"{url.user}{USER_ID}", headers=headers)
     assert r.status_code == 200
+
+
+"""Check CI/CD"""
